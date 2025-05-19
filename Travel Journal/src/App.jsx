@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
+import Entry from "./components/Entry";
 
 function App() {
   return (
     <>
       <Header />
-      <h1>i am the app component</h1>
+      <Entry />
     </>
   );
 }
